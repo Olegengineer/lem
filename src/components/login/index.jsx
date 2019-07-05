@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Styled } from './style';
 
 
-class Login extends React.Component {
+class Login extends Component {
     render() {
         return (
             <Styled>

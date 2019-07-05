@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 
-import Login from './components/login/index'
+import Wellcome from './components/wellcome/index';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Login />
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+  render() {
+    return (
+      <div className="App" >
+        <header className="App-header">
+          <Wellcome />
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;
