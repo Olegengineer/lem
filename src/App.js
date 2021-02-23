@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-
-import Wellcome from './components/wellcome/index';
+import { FlashLight } from './components/flashLight';
 
 class App extends React.Component {
 
@@ -9,7 +8,7 @@ class App extends React.Component {
     return (
       <div className="App" >
         <header className="App-header">
-          <Wellcome />
+          <FlashLight/>
         </header>
       </div>
     );
